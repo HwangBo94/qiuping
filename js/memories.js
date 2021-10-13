@@ -1,3 +1,5 @@
+loadAudioFile('../music/2.mp3');
+
 $(function(){
     $('#dowebok').fullpage({
         'navigation': true,
@@ -5,4 +7,4 @@ $(function(){
         'navigationColor':['#fff'],
     });
 });
-loadAudioFile('../music/2.mp3');
+
