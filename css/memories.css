@@ -11,6 +11,40 @@
 	height: auto;
 	max-width: 100%; 
 }*/
+
+.myscale img{
+
+background-size:contain|cover;
+
+width:auto;
+
+height: 100%;
+
+}
+
+.mybody body{
+
+background-size:contain|cover;
+
+width:100%;
+
+height:auto;
+
+}
+
+.mycenter{
+    text-align: center;  /*文字居中*/
+    width: 300px;  /*宽度300px*/
+    height: 50px;  /*高度50px*/
+    background: #CCCCCC;  /*背景颜色灰色*/
+}
+
+
+canvas {
+    cursor: crosshair;
+    display: block;
+}
+
 .bgcolor {
 	background: #ee9ca7;
     background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
